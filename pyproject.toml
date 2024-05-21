@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "baicell-kpi"
+version = "0.1.0"
+description = "Baicell-kpi aplictaion"
+authors = ["Plautz"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.34.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
